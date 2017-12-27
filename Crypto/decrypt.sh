@@ -2,7 +2,7 @@
 
 
 
-./aescrypt.exe -d -p $1 ../Assets/Sprites/*.aes
+./aescrypt.exe -d -p $PAINTER_CAT_PASSWORD ../Assets/Sprites/*.aes
 
 rm ../Assets/Sprites/*.aes
 
@@ -12,6 +12,6 @@ rm ../Assets/Sprites/*.aes
 
 
 
-./aescrypt.exe -d -p $1 ../Assets/Prefabs/*.aes
+./aescrypt.exe -d -p $PAINTER_CAT_PASSWORD ../Assets/Prefabs/*.aes
 
 rm ../Assets/Prefabs/*.aes
